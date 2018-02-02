@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.0005" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.00005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -159,48 +159,6 @@
 <text x="-0.1" y="-7.4" size="0.762" layer="27">&gt;VALUE</text>
 <circle x="-1.8" y="0" radius="0.2" width="0.2032" layer="21"/>
 </package>
-<package name="0603">
-<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-<package name="0603-POLAR">
-<description>&lt;p&gt;&lt;b&gt;Polarized 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-1.1" y1="-0.8" x2="-1.7" y2="-0.8" width="0.2032" layer="51"/>
-<wire x1="-1.7" y1="-0.8" x2="-1.7" y2="0.8" width="0.2032" layer="51"/>
-<wire x1="-1.7" y1="0.8" x2="-1.1" y2="0.8" width="0.2032" layer="51"/>
-<wire x1="1.1" y1="-0.8" x2="1.5" y2="-0.8" width="0.2032" layer="51"/>
-<wire x1="1.5" y1="-0.8" x2="1.9" y2="-0.4" width="0.2032" layer="51"/>
-<wire x1="1.9" y1="-0.4" x2="1.9" y2="0.4" width="0.2032" layer="51"/>
-<wire x1="1.9" y1="0.4" x2="1.5" y2="0.8" width="0.2032" layer="51"/>
-<wire x1="1.5" y1="0.8" x2="1.1" y2="0.8" width="0.2032" layer="51"/>
-<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="-" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="+" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<wire x1="1.651" y1="0.508" x2="1.651" y2="-0.508" width="0.127" layer="21"/>
-</package>
 <package name="LGA-12">
 <smd name="PIN_1" x="0" y="0" dx="0.375" dy="0.35" layer="1"/>
 <smd name="PIN_2" x="0" y="-0.5" dx="0.375" dy="0.35" layer="1"/>
@@ -349,7 +307,7 @@
 <text x="-1.7" y="-2.6" size="0.5" layer="21">&gt;NAME</text>
 <text x="-1.7" y="-3.4" size="0.5" layer="21">&gt;VALUE</text>
 </package>
-<package name="2032">
+<package name="2032_HOLDER">
 <smd name="PIN_2" x="-10.985" y="0" dx="2.79" dy="5.08" layer="1"/>
 <smd name="PIN_3" x="10.985" y="0" dx="2.79" dy="5.08" layer="1"/>
 <polygon width="0.1" layer="1">
@@ -384,7 +342,7 @@
 <text x="-1.8" y="-2.1" size="0.5" layer="21">&gt;NAME</text>
 <text x="-1.8" y="-2.9" size="0.5" layer="21">&gt;VALUE</text>
 </package>
-<package name="7343">
+<package name="SMD_2917_P">
 <smd name="PIN_1_-" x="-3.6" y="0" dx="2.7" dy="3" layer="1"/>
 <smd name="PIN_2_+" x="3.6" y="0" dx="2.7" dy="3" layer="1"/>
 <text x="-4.5" y="2.8" size="1" layer="21">(-)</text>
@@ -442,14 +400,30 @@
 <text x="-11.43" y="13.97" size="1.27" layer="25">&gt;NAME</text>
 <text x="-11.43" y="11.43" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="2012">
+<package name="SMD_0805_P">
 <smd name="PIN_1" x="-0.8" y="0" dx="1" dy="1.45" layer="1"/>
 <smd name="PIN_2" x="0.8" y="0" dx="1" dy="1.45" layer="1"/>
-<text x="-1.1" y="-1.7" size="0.4" layer="21">&gt;NAME</text>
-<text x="-1.1" y="-2.3" size="0.4" layer="27">&gt;VALUE</text>
+<text x="-0.846" y="-1.446" size="0.4" layer="21">&gt;NAME</text>
+<text x="-0.846" y="-1.919" size="0.4" layer="27">&gt;VALUE</text>
 <wire x1="-1.2" y1="1.2" x2="-1.7" y2="1.2" width="0.127" layer="27"/>
 <wire x1="-1.7" y1="1.2" x2="-1.7" y2="-1.1" width="0.127" layer="27"/>
 <wire x1="-1.7" y1="-1.1" x2="-1.1" y2="-1.1" width="0.127" layer="27"/>
+</package>
+<package name="SMD_0603">
+<smd name="P$1" x="-0.7741" y="0" dx="0.787" dy="0.864" layer="1"/>
+<smd name="P$2" x="0.7747" y="0" dx="0.787" dy="0.864" layer="1"/>
+<wire x1="-0.1" y1="0.5" x2="0.1" y2="0.5" width="0.2" layer="21"/>
+<wire x1="-0.1" y1="-0.5" x2="0.1" y2="-0.5" width="0.2" layer="21"/>
+<text x="-2.1" y="-1.5" size="0.8" layer="27">&gt;VALUE</text>
+<text x="-2.1" y="-2.4" size="0.8" layer="25">&gt;NAME</text>
+</package>
+<package name="SMD_0805">
+<smd name="P$1" x="-0.79375" y="0" dx="1.0795" dy="1.3208" layer="1"/>
+<smd name="P$2" x="0.79375" y="0" dx="1.0795" dy="1.3208" layer="1"/>
+<wire x1="0" y1="0.6604" x2="0" y2="0.6477" width="0.2" layer="21"/>
+<wire x1="0" y1="-0.6731" x2="0" y2="-0.6604" width="0.2" layer="21"/>
+<text x="-1.3716" y="-1.7399" size="0.8" layer="27">&gt;VALUE</text>
+<text x="-1.3716" y="-2.6289" size="0.8" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -760,7 +734,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="HUM_HIH913X">
+<deviceset name="SENS_HUM_HIH913X">
 <description>SPI Humidity sensor  Digikey:480-5707-6-ND</description>
 <gates>
 <gate name="G$1" symbol="HUM_SPI_8" x="0" y="0"/>
@@ -783,15 +757,15 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="0.1UF_CAP">
+<deviceset name="CAP_0.1UF">
 <gates>
 <gate name="G$1" symbol="CAP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0603">
+<device name="" package="SMD_0603">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -799,15 +773,15 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="0.22UF_CAP">
+<deviceset name="CAP_0.22UF">
 <gates>
 <gate name="G$1" symbol="CAP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0603">
+<device name="" package="SMD_0603">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -815,15 +789,15 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="10K_RES">
+<deviceset name="RES_10K">
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0603">
+<device name="" package="SMD_0603">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -831,7 +805,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="VCC_SYMBOL">
+<deviceset name="SYM_VCC">
 <gates>
 <gate name="G$1" symbol="VCC" x="0" y="0"/>
 </gates>
@@ -843,7 +817,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="GND_SYMBOL">
+<deviceset name="SYM_GND">
 <gates>
 <gate name="G$1" symbol="GND" x="0" y="0"/>
 </gates>
@@ -855,7 +829,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAG_LIS3MDL">
+<deviceset name="SENS_MAG_LIS3MDL">
 <gates>
 <gate name="G$1" symbol="MAG_SPI_12" x="0" y="0"/>
 </gates>
@@ -881,15 +855,15 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1UF_CAP">
+<deviceset name="CAP_1UF">
 <gates>
 <gate name="G$1" symbol="CAP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0603">
+<device name="" package="SMD_0603">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -897,7 +871,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="PRESS_RSC">
+<deviceset name="SENS_PRESS_RSC">
 <gates>
 <gate name="G$1" symbol="PRESS_SPI_8" x="0" y="0"/>
 </gates>
@@ -919,15 +893,15 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="4.7UF_CAP">
+<deviceset name="CAP_4.7UF">
 <gates>
 <gate name="G$1" symbol="CAP" x="-2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="0603">
+<device name="" package="SMD_0603">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -953,7 +927,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="XC">
+<deviceset name="ZMISC_XC">
 <gates>
 <gate name="G$1" symbol="XC_3" x="0" y="0"/>
 </gates>
@@ -970,15 +944,15 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="18PF_CAP">
+<deviceset name="CAP_18PF">
 <gates>
 <gate name="G$1" symbol="CAP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0603">
+<device name="" package="SMD_0603">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -986,7 +960,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATMEGA1284P">
+<deviceset name="UC_ATMEGA1284P">
 <gates>
 <gate name="G$1" symbol="ATMEGA1284P" x="0" y="0"/>
 </gates>
@@ -1040,7 +1014,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TEMP_ADT7310">
+<deviceset name="SENS_TEMP_ADT7310">
 <gates>
 <gate name="G$1" symbol="TEMP_ADT7310" x="0" y="0"/>
 </gates>
@@ -1062,7 +1036,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="RTC_AB08">
+<deviceset name="SENS_RTC_AB08">
 <gates>
 <gate name="G$1" symbol="RTC_AB08" x="0" y="0"/>
 </gates>
@@ -1091,12 +1065,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="2032_BACKUP">
+<deviceset name="PWR_2032_BACKUP">
 <gates>
 <gate name="G$1" symbol="2032_CELL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="2032">
+<device name="" package="2032_HOLDER">
 <connects>
 <connect gate="G$1" pin="NEG" pad="PIN_1"/>
 <connect gate="G$1" pin="POS" pad="PIN_2 PIN_3"/>
@@ -1107,15 +1081,15 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="47PF_CAP">
+<deviceset name="CAP_47PF">
 <gates>
 <gate name="G$1" symbol="CAP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0603">
+<device name="" package="SMD_0603">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1123,7 +1097,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="XC_RTC">
+<deviceset name="ZMISC_XC_RTC">
 <gates>
 <gate name="G$1" symbol="XC_2" x="0" y="0"/>
 </gates>
@@ -1139,15 +1113,15 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1.5K_RES">
+<deviceset name="RES_1.5K">
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0603">
+<device name="" package="SMD_0603">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1155,15 +1129,15 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="3.3K_RES">
+<deviceset name="RES_3.3K">
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0603">
+<device name="" package="SMD_0603">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1171,12 +1145,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="220UF_CAP_TANT">
+<deviceset name="CAP_220UF_TANT">
 <gates>
 <gate name="G$1" symbol="CAP_POL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="7343">
+<device name="" package="SMD_2917_P">
 <connects>
 <connect gate="G$1" pin="+" pad="PIN_2_+"/>
 <connect gate="G$1" pin="-" pad="PIN_1_-"/>
@@ -1187,7 +1161,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="BOOST_IND">
+<deviceset name="PWR_BOOST_IND">
 <gates>
 <gate name="G$1" symbol="L-PULSE+" x="0" y="0"/>
 </gates>
@@ -1203,7 +1177,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="BOOST_TPS61032">
+<deviceset name="PWR_BOOST_TPS61032">
 <gates>
 <gate name="G$1" symbol="BOOST_TPS61032" x="0" y="0"/>
 </gates>
@@ -1227,15 +1201,15 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="2.2UF_CAP">
+<deviceset name="CAP_2.2UF">
 <gates>
 <gate name="G$1" symbol="CAP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0603">
+<device name="" package="SMD_0603">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1243,15 +1217,15 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5.6M_RES">
+<deviceset name="RES_5.6M">
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0603">
+<device name="" package="SMD_0603">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1259,15 +1233,15 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1M_RES">
+<deviceset name="RES_1M">
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0603">
+<device name="" package="SMD_0603">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1275,7 +1249,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1G_RES">
+<deviceset name="RES_1G">
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -1291,12 +1265,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="PHOTO_TEMD7100">
+<deviceset name="SENS_PHOTO_TEMD7100">
 <gates>
 <gate name="G$1" symbol="DIODE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="2012">
+<device name="" package="SMD_0805_P">
 <connects>
 <connect gate="G$1" pin="A" pad="PIN_2"/>
 <connect gate="G$1" pin="C" pad="PIN_1"/>
@@ -1307,7 +1281,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="OPAMP_LF353">
+<deviceset name="ZMISC_OPAMP_LF353">
 <gates>
 <gate name="G$1" symbol="OPAMP_LF353" x="0" y="0"/>
 </gates>
