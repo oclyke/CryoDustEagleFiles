@@ -1698,6 +1698,22 @@ It is used to mate with our FTDI Basic serial programmers using the Arduino IDE.
 </device>
 </devices>
 </deviceset>
+<deviceset name="PWR_MAIN_BATT">
+<gates>
+<gate name="G$1" symbol="BATT_2032_CELL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1-1318300-2">
+<connects>
+<connect gate="G$1" pin="NEG" pad="PIN_2_NEG"/>
+<connect gate="G$1" pin="POS" pad="PIN_1_POS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
