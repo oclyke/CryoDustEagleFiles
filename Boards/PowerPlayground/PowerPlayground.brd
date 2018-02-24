@@ -629,10 +629,8 @@ design rules under a new name.</description>
 <signal name="DB_V_BATT">
 <contactref element="U$6" pad="PIN_1"/>
 <contactref element="U$8" pad="1"/>
-<contactref element="U$6" pad="PIN_3"/>
 <wire x1="13.931" y1="22.821" x2="13.931" y2="19.812" width="0.4572" layer="1"/>
 <wire x1="13.931" y1="22.821" x2="13.97" y2="22.86" width="0.4572" layer="1"/>
-<wire x1="15.87" y1="22.86" x2="15.87" y2="19.934" width="0.4572" layer="1"/>
 <wire x1="15.87" y1="19.934" x2="15.748" y2="19.812" width="0.4572" layer="1"/>
 <wire x1="15.748" y1="19.812" x2="13.931" y2="19.812" width="0.4572" layer="1"/>
 <contactref element="U$21" pad="PIN_9"/>
@@ -677,6 +675,9 @@ design rules under a new name.</description>
 <wire x1="17.78" y1="26.67" x2="17.78" y2="30.48" width="1.524" layer="1"/>
 <wire x1="13.931" y1="19.812" x2="17.839" y2="19.812" width="0.6096" layer="1"/>
 <wire x1="17.839" y1="19.812" x2="18.347" y2="19.304" width="0.6096" layer="1"/>
+<contactref element="U$6" pad="PIN_3"/>
+<wire x1="13.97" y1="22.86" x2="15.87" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="25.1399875" y1="14.273290625" x2="25.654" y2="12.192" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="U$6" pad="PIN_5"/>

@@ -2353,15 +2353,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="22.86" y="53.34"/>
 <label x="10.16" y="66.04" size="1.778" layer="95" rot="R90"/>
 <wire x1="10.16" y1="53.34" x2="10.16" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="88.9" x2="81.28" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="88.9" x2="83.82" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="88.9" x2="83.82" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="ENABLE"/>
-<wire x1="33.02" y1="58.42" x2="33.02" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="50.8" x2="83.82" y2="50.8" width="0.1524" layer="91"/>
-<label x="71.12" y="50.8" size="1.778" layer="95"/>
+<wire x1="10.16" y1="88.9" x2="86.36" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="88.9" x2="86.36" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="88.9" x2="86.36" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -2386,6 +2379,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="127" y1="83.82" x2="127" y2="88.9" width="0.1524" layer="91"/>
 <junction x="127" y="88.9"/>
 <label x="109.22" y="89.916" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="ENABLE"/>
+<wire x1="33.02" y1="58.42" x2="33.02" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="50.8" x2="83.82" y2="50.8" width="0.1524" layer="91"/>
+<label x="71.12" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC" class="0">
